@@ -57,7 +57,7 @@ EVChargeOps/
 │   └── rateio_mensal.json
 ├── docs/
 │   ├── arquitetura.png
-│   └── especificacoes_goodwe.pdf
+│   └── EV ChargeOps.pdf
 ├── src/
 │   ├── integraçao_api.py
 │   ├── motor_rateio.py
