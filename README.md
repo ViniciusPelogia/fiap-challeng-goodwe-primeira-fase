@@ -13,30 +13,30 @@
 O **EV ChargeOps** é um sistema de gestão operacional desenvolvido para o **Enterprise Challenge 2026 (GoodWe + FIAP)**. Nosso objetivo é transformar sessões de recarga de VEs em dados estruturados e inteligência acionável para condomínios, resolvendo problemas de rateio, sobrecarga de rede e experiência do usuário.
 
 ### O que o sistema entrega:
-* 🔌 Monitoramento em tempo real via API GoodWe e Modbus TCP[cite: 4, 6].
+* 🔌 Monitoramento em tempo real via API GoodWe e Modbus TCP.
 * 🧾 Rateio automático de custos por unidade consumidora.
 * ⚡ Gestão dinâmica de carga (Load Balancing).
 * 🧠 Previsão de demanda energética com IA.
-* 💬 Chatbot (NLP) para consulta de faturamento e status[cite: 3].
+* 💬 Chatbot (NLP) para consulta de faturamento e status.
 * 🚨 Alertas inteligentes de falha.
 
 ---
 
 ## 📊 Arquitetura de Dados
-O sistema coleta dados de telemetria diretamente do carregador **GoodWe HCA G2**[cite: 4, 5].
+O sistema coleta dados de telemetria diretamente do carregador **GoodWe HCA G2**.
 
 | Dado | Fonte | Função |
 | :--- | :--- | :--- |
 | `power` | API/Modbus | Potência instantânea da recarga |
-| `energy` | API/Modbus | Volume total de energia entregue (kWh)[cite: 6] |
-| `status` | API | Estado da sessão (idle, charging, fault)[cite: 6] |
+| `energy` | API/Modbus | Volume total de energia entregue (kWh)|
+| `status` | API | Estado da sessão (idle, charging, fault)|
 | `soc` | BMS/Inversor | Nível de carga (quando aplicável) |
 
 ---
 
 ## 🚀 Proposta de Valor
-**O síndico ganha:** Transparência no rateio, segurança operacional da rede e relatórios automáticos[cite: 3].
-**O morador ganha:** Autonomia via App, histórico de consumo e tarifação justa (Pay-per-use)[cite: 3].
+**O síndico ganha:** Transparência no rateio, segurança operacional da rede e relatórios automáticos.
+**O morador ganha:** Autonomia via App, histórico de consumo e tarifação justa (Pay-per-use).
 
 ---
 
