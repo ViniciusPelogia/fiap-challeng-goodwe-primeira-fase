@@ -85,12 +85,12 @@ Seguindo princípios de SRE, o sistema prioriza:
 
 ## 👥 Equipe
 
-| Integrante       | RM        | Email                         |
-| ---------------- | --------- | ----------------------------- |
-| Vinicius Pelogia | 572675    | vinipelogia@gmail.com         |
-| David Tomaz      | 570348    | daviddesatomaz@gmail.com      |
-| Eric Yuiti       | 573495    | Eric.nissi@gmail.com          |
-| Antuny Menezes   | 572107    | antunyyt@gmail.com            |
+| Integrante       | RM        | Email                           |
+| ---------------- | --------- | -----------------------------   |
+| Vinicius Pelogia | RM572675    | vinipelogia@gmail.com         |
+| David Tomaz      | RM570348    | daviddesatomaz@gmail.com      |
+| Eric Yuiti       | RM573495    | Eric.nissi@gmail.com          |
+| Antuny Menezes   | RM572107    | antunyyt@gmail.com            |
 
 ## 🔗 Referências
 
